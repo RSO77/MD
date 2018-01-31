@@ -1,0 +1,21 @@
+.class-footer{
+  position: relative;
+  width: 100%;
+  height: 80px;
+  .center-block{
+    position: relative;
+    transform: none;
+    padding: 0;
+    .copyrighted{
+      width: 100%;
+      text-align: center;
+      display: block;
+      p{
+        font-size: 12px;
+      }
+    }
+    .footer_right{
+      display: none;
+    }
+  }
+}

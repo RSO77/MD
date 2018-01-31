@@ -1,0 +1,34 @@
+.class-header{
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  height: auto;
+  position: relative;
+  width: 100%;
+  .header_text{
+    width: 100%;
+    display: block;
+    p{
+      width: 82%;
+      text-align: left;
+      font-family: Trebuchet-r;
+      font-size: 15px;
+      color: black;
+      margin: 0 auto;
+      line-height: 18px;
+    }
+  }
+  .header_logo{
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: em(67) auto em(53);
+    svg{
+      cursor: pointer;
+      width: em(170);
+      height: auto;
+      .st0{fill:#E40664;}
+      .st1{fill:#002157;}
+    }
+  }
+}

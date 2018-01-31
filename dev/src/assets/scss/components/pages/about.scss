@@ -1,0 +1,35 @@
+.page-about{
+  background-color: #002157;
+  border-bottom-left-radius: 4.5em;
+  border-top-left-radius: 4.5em;
+  .text{
+    max-width: em(300);
+    position: absolute;
+    top: 50%;
+    left: em(120);
+    transform: translate3d(0, -50%, 0);
+    p{
+      text-align: left;
+      font-size: em(19);
+      line-height: em(20);
+      color: white;
+      font-style: italic;
+    }
+  }
+  .gradient{
+    position: absolute;
+    bottom: -14%;
+    left: 17%;
+    width: 17.625em;
+    height: em(150);
+    background: radial-gradient(ellipse at 50% 50%, #41195b, #002157);
+  }
+  .gradient2{
+    position: absolute;
+    bottom: -37%;
+    right: -12%;
+    width: 13.375em;
+    height: 28.625em;
+    background: radial-gradient(ellipse at 50% 50%, #41195b, #002157);
+  }
+}

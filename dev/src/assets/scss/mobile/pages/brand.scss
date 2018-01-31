@@ -1,0 +1,41 @@
+.page-brand{
+  padding: 35px 0;
+  background: linear-gradient(to top left, #bac3d2 4%, #ffffff 75%);
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  .brand-cont{
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .col-br{
+    display: block;
+    margin-top: 0;
+    .elem-brend{
+      display: inline-block;
+    }
+    img{width: 70%}
+  }
+  .col-br:first-child{
+    margin-top: 0;
+  }
+  .col1{
+    .unilevel{ width: 25%; max-width: 85px;  margin:0; margin-right: 17%;   }
+    .nestle{   width: 28%;  max-width: 94px; margin: 0 0;   }
+    .rocher{   width: 60%; max-width: 207px; margin: 40px 15%; }
+    .nivea{    width: 27%;  margin: 0; margin-right: 7%; max-width: 94px;  }
+    .mtc{      width: 55%; margin: 0; max-width: 192px;  }
+  }
+  .col2{
+    .uni_credit{ width: 91%; max-width: 315px; margin: 40px auto; display: block }
+    .sber{       width: 97%; max-width: 334px; margin: 40px auto; display: block }
+    .raiffeisein{width: 78%; max-width: 265px; margin: 40px auto; display: block }
+  }
+  .col3{
+    .pepsi{ width: 62%; max-width: 200px; margin: 0 0; }
+    .visa{  width: 31%; max-width: 100px; margin: 0 0; }
+    .ikea{  width: 61%; max-width: 205px; margin: 40px auto; display: block  }
+    .metro{ width: 76%; max-width: 255px; margin: 40px auto; display: block  }
+  }
+}

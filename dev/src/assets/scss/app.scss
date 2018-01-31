@@ -4,6 +4,23 @@
 @import "components/helpers";
 @import "components/base";
 @import "components/media";
+@import "components/ui/header";
+@import "components/ui/footer";
+@import "components/base/fonts";
+@import "components/base/menu";
+@import "components/base/content";
+@import "components/pages/contacts";
+@import "components/pages/brand";
+@import "components/pages/about";
+@import "components/pages/tech";
 
 
-
+.mobile{
+  @import 'mobile/pages/about';
+  @import 'mobile/pages/brand';
+  @import 'mobile/pages/contacts';
+  @import 'mobile/pages/tech';
+  @import 'mobile/ui/header';
+  @import 'mobile/ui/footer';
+  @import 'mobile/content';
+}

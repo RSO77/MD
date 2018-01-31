@@ -1,0 +1,37 @@
+.page-tech{
+  text-align: left;
+  background: radial-gradient(circle farthest-corner at 100% 100%, #309fc8, #143f85);
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  position: relative;
+  .content-tech{
+    padding: 35px 27px;
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    width: 100%;
+    margin: 0 auto;
+    max-width: em(500);
+  }
+  .text{
+    font-size: em(18);
+    display: block;
+    margin: 0;
+    margin-bottom: 30px;
+    max-width: 100%;
+    p{
+      font-size: em(18);
+      line-height: em(21);
+    }
+  }
+  .technologies{
+    display: block;
+    max-width: 100%;
+    margin: 0;
+    p{
+      font-size: em(16);
+    }
+    p:last-child{margin-bottom: 0}
+  }
+}

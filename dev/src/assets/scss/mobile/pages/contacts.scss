@@ -1,0 +1,49 @@
+.contact-page{
+  padding-left: 0;
+  padding-bottom: 25px;
+  .contact-title{
+    text-align: center;
+    h2{
+      font-size: em(30);
+      font-family: Trebuchet-r;
+    }
+  }
+  form{
+    text-align: left;
+    input{
+      width: 80%;
+      max-width: 320px;
+      min-width: 280px;
+      height: em(45);
+      padding: 15px;
+      margin: 12px auto;
+    }
+    .message-input{
+      display: block;
+      width: 80%;
+      max-width: 320px;
+      min-width: 280px;
+      margin: 0 auto;
+      margin-bottom: em(30);
+    }
+    .form-btn{
+      width: 80%;
+      max-width: 320px;
+      min-width: 280px;
+      height: em(45);
+      padding: em(15);
+      margin: 0 auto;
+      text-align: center;
+      span{
+        font-family: Trebuchet-b;
+        text-transform: uppercase;
+        font-size: em(14);
+        color: white;
+        border-radius: 4px;
+      }
+    }
+  }
+  .close{
+    display: none;
+  }
+}

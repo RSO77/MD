@@ -1,0 +1,40 @@
+.page-tech{
+  text-align: left;
+  //background: radial-gradient(circle farthest-corner at 100% 100%, #309fc8, #143f85);
+  border-bottom-left-radius: 4.5em;
+  border-top-left-radius: 4.5em;
+  .content-tech{
+    position: absolute;
+    top: 50%;
+    left: em(110);
+    transform: translate3d(0,-50%,0);
+    width: em(625);
+  }
+  .text{
+    vertical-align: top;
+    font-size: em(16);
+    display: inline-block;
+    max-width: em(315);
+    margin-right: em(30);
+    p{
+      font-size: em(18);
+      color: white;
+      font-style: italic;
+      line-height: em(21);
+    }
+  }
+  .technologies{
+    vertical-align: top;
+    text-align: left;
+    display: inline-block;
+    max-width: em(275);
+    p{
+      display: block;
+      font-size: em(14);
+      color: white;
+      margin-bottom: em(19);
+      line-height: em(23);
+    }
+    p:last-child{margin-bottom: 0}
+  }
+}

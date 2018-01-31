@@ -1,8 +1,8 @@
 <template>
-    <menu>
-        <router-link to="/">На главную</router-link>
-        /
-        <router-link to="/page2">На внутреннюю</router-link>
+    <menu class="menu-class">
+        <router-link to="/">О компании</router-link>
+        <router-link to="/tech">Технологии</router-link>
+        <router-link to="/brand">Бренды</router-link>
     </menu>
 </template>
 
@@ -11,20 +11,3 @@
         name: 'Menu',
     }
 </script>
-
-<style scoped>
-    menu {
-        margin: 1em 0 3em;
-        padding: 0;
-        text-align: center;
-    }
-
-    a {
-        color: #1262b3;
-        margin: 0 1em;
-    }
-
-    a:hover {
-        color: #e20613;
-    }
-</style>

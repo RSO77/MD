@@ -1,0 +1,52 @@
+.page-brand{
+  padding-top: em(65);
+  padding-left: em(150);
+  border-bottom-left-radius: 4.5em;
+  border-top-left-radius: 4.5em;
+  .brand-cont{
+    width: em(1090);
+    height: em(311);
+  }
+  .col-br{
+    display: block;
+    margin-top: em(65);
+
+    .elem-brend{
+      display: inline-block;
+    }
+    img{
+      width: 100%;
+    }
+  }
+  .col-br:first-child{
+    margin-top: 0;
+  }
+  .col1{
+    .unilevel{ width: em(64); margin-right: em(100) }
+    .nestle{ width: em(72); margin-right: em(148) }
+    .rocher{ width: em(150); margin-right: em(105) }
+    .nivea{ width: em(71); margin-right: em(130) }
+    .mtc{ width: em(137) }
+  }
+  .col2{
+    .uni_credit{ width: em(223); margin-right: em(160) }
+    .sber{ width: em(235); margin-right: em(170) }
+    .raiffeisein{ width: em(187) }
+  }
+  .col3{
+    .pepsi{ width: em(150); margin-right: em(140) }
+    .visa{ width: em(74); margin-right: em(120) }
+    .ikea{ width: em(149); margin-right: em(155) }
+    .metro{ width: em(186) }
+  }
+  #canvas-brand{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}

@@ -1,0 +1,35 @@
+.center{
+  position: relative;
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+  transform: none;
+  top: auto;
+  padding-top: 45px;
+  .center-img{
+    width: 100%;
+    height: 225px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .about-img{
+    background-image: url("/static/images/bg.png");
+  }
+  .tech-img{
+    background-image: url("/static/images/bg.png");
+  }
+  .brand-img{
+    background-image: url("/static/images/bg.png");
+  }
+  .contact-img{
+    background-image: url("/static/images/bg.png");
+  }
+  .center-container{
+    position: relative;
+    text-align: left;
+    height: auto;
+  }
+}
+#app{
+  height: auto;
+}
